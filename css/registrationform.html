@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admission form</title>
+    
+
+<style>
+
+    .container{
+        border-radius: 180px 200px;
+        border-color: black;
+        font-weight: 300;
+        mask-origin: content-box;
+    }
+
+h1{background-position: center centre;
+   text-decoration: solid underline purple 4px;
+  mask-origin: content-box;
+  text-align: center;
+}
+    
+h3
+{text-align: center;
+outline-color:rgb(32, 32, 180) ;
+}
+label {
+      margin-bottom: 8px;}
+
+
+
+
+      input,
+    textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;}
+
+      input[type="submit"] {
+      background-color: #4caf50;
+      color: #fff;
+      cursor: pointer;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+
+
+/*input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}*/
+
+
+
+</style>
+
+</head>
+<body>
+    <h1> Registration Form</h1>
+    <h3> Please fill out this form with the required information</h3>
+    git add README.md
+
+     <div>=class"container">
+    <form action="process-form.php" method="post">
+<label for="name">Enter Your First Name:</label>
+<br>
+<input type="text" id="name"place holder=" name" required>
+<br>
+<label for="name">Enter Your Last Name:</label>
+<br>
+<input type="text" id="name"place holder=" last name" required>
+
+<br>
+<label for="Email">Enter Your Email:</label>
+<br>
+<input type="email" id="Email"placeholder name=" Email"required>
+<br>
+<label for="passward">Create a New Passward:</label>
+<br>
+<input type="text" id="passward" place holder name="new passward"required>
+
+
+<hr>
+
+<input type="radio" value="button"name="account">personal account
+<br>
+<input type="radio" value="button" name="account">business account
+<br>
+<input type="checkbox" value="i have accept">
+
+<a href="done"> i have accept terms and conditions</a>
+
+
+<hr>
+<br>
+<label for="profile">Upload a profile picture: </label>
+<input type="file" id="profile">
+<br>
+<label for="years">input your age(years):</label>
+<br>
+<input type="date" id="years"> input your age(years)
+<br>
+<label for="how did you hear about us?">how did you hear about us?:</label>
+<br>
+
+<select name="social media"> id="select one media"></selectname>
+<option value="social media">selectone:google:facebook:linkdin></one:google:facebook:linkdin></option>
+
+
+</select></option>
+<br>
+<label for="explain">provide a bio:</label>
+<br>
+<textarea name="explain" id="explain" cols="30"rows="1"placeholder="i like coding on the beach..."></textarea>
+ <input type="submit" value="submit">
+</form>
+
+</div>
+
+
+
+
+</body>
+</html>
